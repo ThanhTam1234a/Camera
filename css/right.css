@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.motaphai{
+    margin-top: 10px;
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    
+       }
+.aa{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+.anh1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    background-color: aliceblue;
+    
+}
+.img2{
+    width: 200px;
+    height: 200px;
+    margin-left: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.thongt{
+    font-weight: bold;
+    text-align  : center;
+}
+.cb{
+    text-align: center;
+    color: red;
+}
+
+.nut{
+    width: 100px;
+    padding: 5px;
+    margin-left: 30%;
+}
+.ten{
+    color: blue;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}

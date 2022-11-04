@@ -1,0 +1,69 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+.than{
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+}
+.thantrai{
+   border-right: 1px solid black;
+}
+.mota{ 
+    color: black;
+    padding: 15px;
+    font-size: 30px;
+    font-weight: bolder;
+    border-bottom: 1px solid black;         
+   
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    background-color:aliceblue;
+    margin: 0;
+    padding: 0;
+   
+}
+.menu li{
+    position: relative;
+    border-bottom: 1px solid black;
+    padding: 20px;
+    color:black;
+}
+.menu  li  a {
+    text-decoration: none;
+    color :white;
+    display: block;
+    padding: 18px 20px;
+   
+    
+}
+.menu ul.submenu{
+    position: absolute;
+    background-color:rgb(124, 118, 118);
+    width: 150px;
+    list-style-type: none;
+    left: 200px;
+    border: 1px solid black;
+    display: none;
+    top: 10px;
+ 
+}
+.menu li:hover>ul.submenu{
+    display: block;
+}
+.menu ul.submenu a{
+    padding: 0 15px;
+    left:0;
+}   
+.menu ul.submenu li:last-child a{
+    border: none;
+}
+.menu ul.submenu ul.submenu{
+    left: 150px;
+    top:10px;
+}
+
